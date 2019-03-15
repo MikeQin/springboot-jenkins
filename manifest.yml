@@ -1,0 +1,7 @@
+---
+applications:
+- name: springboot-hello
+  memory: 1G
+  instances: 1
+  random-route: true
+  path: target/hello-1.0.jar
